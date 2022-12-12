@@ -1,5 +1,3 @@
-The README file must give an overview of what you are handing in: which parts are your code, which parts are libraries, and so on. The README must also explain any non-obvious features of your interface.
-
 My visualization supports the following tasks:
     - Story Selection (Users can select different stories to analyze)
     - Visualize the emotional journey of a story by analyzing each paragraph
