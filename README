@@ -1,0 +1,18 @@
+The README file must give an overview of what you are handing in: which parts are your code, which parts are libraries, and so on. The README must also explain any non-obvious features of your interface.
+
+My visualization supports the following tasks:
+    - Story Selection (Users can select different stories to analyze)
+    - Visualize the emotional journey of a story by analyzing each paragraph
+        Opacity is proportional to the sentiment score percentage
+        Circle size is proportional to the paragraph size (i.e. the number of sentences)
+    - Paragraph Hover:
+        When hovering over each paragraph circle, the exact sentiment scores will be displayed in the bottom right corner.
+
+More detailed description can be found in processbook.html.
+
+I've also used the following outside resources to assit my project:
+    - W3Schools
+    - GeeksforGeeks
+    - code from past studios
+    - https://observablehq.com/@harrylove/draw-lines-between-circles-nodes-using-d3-links
+    - Google Doc

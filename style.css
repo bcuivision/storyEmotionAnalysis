@@ -1,0 +1,57 @@
+body
+{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+    transition: all 1s ease-out;
+}
+
+#chart-area
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px black solid; */
+}
+
+#storySelection
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.paragraphs:hover
+{
+    transition: all 1s ease-out;
+    r: 20px;
+}
+
+#xLabel
+{
+    font-size: 8pt;
+    font-weight: 900;
+    color: white;
+}
+
+h1
+{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.tooltip
+{
+    color: white;
+}
+
+#hover
+{
+    width: 30%;
+    z-index: 99;
+
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
